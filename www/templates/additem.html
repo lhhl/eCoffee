@@ -1,0 +1,12 @@
+<ion-view view-title="Add New Item">
+    <ion-content>
+        <div class="list">
+            <label class="item item-input" ng-repeat="control in itemList">
+                <input type="text" name="{{ control.name }}" placeholder="{{ control.alias }}">
+            </label>
+        </div>
+        <button class="button button-block button-balanced">
+            Save
+        </button>
+    </ion-content>
+</ion-view>
